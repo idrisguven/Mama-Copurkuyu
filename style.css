@@ -72,9 +72,6 @@ nav li:first-child{
   display: none;
 }
 
-.x-button {
-  padding-left: 300px;
-}
 @media(max-width: 800px){
   .hideOnMobile{
     display: none;
