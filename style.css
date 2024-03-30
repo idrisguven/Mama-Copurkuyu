@@ -143,13 +143,19 @@ nav li:first-child{
 }
 .container {
   
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .test_box {
 	padding: 0;
 }
 .test_box .inner {
-	background: #333;
+	
 	display: block;
 	margin: 10px;
 	overflow: hidden;
@@ -168,6 +174,7 @@ nav li:first-child{
 	display: flex;
 	flex-wrap: wrap;
 	height: 300px;
+  width: 500px;
 	mix-blend-mode: normal;
 	text-align: center;
 	text-decoration: none;
@@ -215,25 +222,36 @@ nav li:first-child{
 
 .box-01 .inner {
 	background-image: url('/img/buton-1.jpg');
-	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 500px 500px;
 }
 .box-02 .inner {
 	background-image: url('/img/buton-2.jpg');
-	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 500px 500px;
 }
 
 .box-03 .inner {
 	background-image: url('/img/buton-3.jpg');
-	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 500px 500px;
 }
 
-
+@media(max-width: 800px){
+  .container{
+    padding: 0;
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .test_link{
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  .box-01 .inner {
+    
+  }
+}
 
 /* SLIDE AYARLARI */
 
