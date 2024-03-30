@@ -86,11 +86,11 @@ nav li:first-child{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
-  height: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */ 
+  width: 100%; /* Resim ayari */
+  height: 100%; /* Resim ayari */
   object-fit: cover;
   z-index:-1;
-  filter: brightness(50%); /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
+  filter: brightness(50%); /* Resime siyahlik ekleme ayari. */
   /* display: none; */
   opacity: 0;
   transition: opacity 0.75s ease-in-out;
@@ -102,7 +102,7 @@ nav li:first-child{
 .intro .intro-header {
   border-radius: 0.5rem;
   padding: 2rem 2.5rem;
- /* background-color: rgba(0, 0, 0, 0.671); */ 
+ /* background-color: rgba(0, 0, 0, 0.671); ---- Yazi arkasi siyahlik boxu */
   text-shadow: 1px 1px 10px black;
   color: white;
 }
