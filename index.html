@@ -37,6 +37,18 @@
   </nav>
 
 
+  <header class="intro">
+    <div class="intro-header">
+      <h1>Mama Copurkuyu</h1>
+      <p>Il kebap più buono di Torino!</p>
+    </div>
+    <div class="intro-slideshow">
+      <img src="/img/1-slide.jpg">
+      <img src="/img/2-slide.jpg">
+    </div>
+  </header>
+
+
 <script>
   function showSidebar(){
     const sidebar = document.querySelector('.sidebar')
@@ -47,6 +59,26 @@
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
   }
+
+  const slideshowImages = document.querySelectorAll(".intro-slideshow img");
+
+const nextImageDelay = 5000;
+let currentImageCounter = 0; // setting a variable to keep track of the current image (slide)
+
+// slideshowImages[currentImageCounter].style.display = "block";
+slideshowImages[currentImageCounter].style.opacity = 1;
+
+setInterval(nextImage, nextImageDelay);
+
+function nextImage() {
+  // slideshowImages[currentImageCounter].style.display = "none";
+  slideshowImages[currentImageCounter].style.opacity = 0;
+
+  currentImageCounter = (currentImageCounter+1) % slideshowImages.length;
+
+  // slideshowImages[currentImageCounter].style.display = "block";
+  slideshowImages[currentImageCounter].style.opacity = 1;
+}
 </script>
 
 </body>
