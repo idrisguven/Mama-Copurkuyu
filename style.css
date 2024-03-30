@@ -53,6 +53,11 @@ nav li:first-child{
   margin-right: auto;
 }
 
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .sidebar{
   position: fixed;
   top: 0;
