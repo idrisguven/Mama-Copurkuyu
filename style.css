@@ -95,6 +95,19 @@ nav li:first-child{
   opacity: 0;
   transition: opacity 0.75s ease-in-out;
 }
+
+.ust-bilgi{
+  display: flex;
+  padding: 15px;
+}
+
+.telefon-bilgi, .instagram-bilgi {
+  padding-left: 30px;
+  display: flex;
+}
+
+
+
 /* .intro-slideshow img:first-child {
   display: block;
   opacity: 1;
