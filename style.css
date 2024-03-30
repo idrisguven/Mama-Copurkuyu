@@ -102,13 +102,14 @@ nav li:first-child{
 .intro .intro-header {
   border-radius: 0.5rem;
   padding: 2rem 2.5rem;
-  background-color: rgba(0, 0, 0, 0.671);
+ /* background-color: rgba(0, 0, 0, 0.671); */ 
+  text-shadow: 1px 1px 10px black;
   color: white;
 }
 .intro h1 {
   font-size: 4rem;
-  margin-bottom: 0.75rem;
 }
+
 .intro p {
   font-size: 1.75rem;
 }
@@ -116,7 +117,7 @@ nav li:first-child{
 
 /* SLIDE AYARLARI */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   html { font-size: 12px; }
   .intro-header { padding: 1.5rem 2rem; }
   .intro h1 { font-size: 2.5rem; }
