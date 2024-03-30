@@ -297,6 +297,27 @@ nav li:first-child{
   font-size:2em;
   margin:0% 1%;
   }
+
+
+  #scrollToTopBtn {
+    display: none; /* Nascondi inizialmente il bottone */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0026ff;
+    color: #fff;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #0056b3;
+  }
+  
   
   @media (max-width:720px){
   .footer{
