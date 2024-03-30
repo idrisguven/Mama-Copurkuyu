@@ -272,9 +272,6 @@ nav li:first-child{
     margin-left: 110px;
     margin-right: 110px;
   }
-  .box-01 .inner {
-    
-  }
 }
 
 /* SLIDE AYARLARI */
@@ -299,6 +296,9 @@ nav li:first-child{
   }
   .menu-button{
     display: block;
+  }
+  .sidebar{
+    width: 100%;
   }
 }
 
