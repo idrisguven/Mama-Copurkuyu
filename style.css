@@ -7,11 +7,18 @@
 body {
   min-height: 100vh;
   background-color: rgb(223, 223, 223);
+  
+
 }
 
 nav{
   background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  
 }
 
 nav ul {
@@ -20,6 +27,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
 }
 
 nav li{
@@ -148,6 +156,7 @@ nav li:first-child{
   padding-left: 50px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   
   
 }
@@ -237,6 +246,15 @@ nav li:first-child{
 	background-repeat: no-repeat;
 	background-size: 500px 500px;
 }
+
+.box-04 .inner {
+	background-image: url('/img/buton-4.jpg');
+	background-repeat: no-repeat;
+	background-size: 500px 500px;
+}
+
+
+
 
 @media(max-width: 800px){
   .container{
