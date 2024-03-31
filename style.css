@@ -94,6 +94,7 @@ nav li:first-child{
   align-items: center;
   text-align: center;
   letter-spacing: 0.1rem;
+
 }
 .intro-slideshow img {
   position: absolute;
@@ -107,6 +108,11 @@ nav li:first-child{
   /* display: none; */
   opacity: 0;
   transition: opacity 0.75s ease-in-out;
+}
+
+.intro h1{
+  font-family: "Satisfy", sans-serif;
+  font-style: normal;
 }
 
 .ust-bilgi{
@@ -271,7 +277,7 @@ nav li:first-child{
   margin:1% 0%;
   padding:0.6% 0%;
   color:gray;
-  font-size:0.8em;
+  font-size:1em;
   }
   
   .footer .row a{
@@ -321,8 +327,8 @@ nav li:first-child{
   
   @media (max-width:720px){
   .footer{
-  text-align:left;
   padding:5%;
+  text-align:center;
   }
   .footer .row ul li{
   display:block;
