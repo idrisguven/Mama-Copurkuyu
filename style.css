@@ -345,6 +345,7 @@ nav li:first-child{
   .footer .row a i{
   margin:0% 3%;
   }
+  
   }
 
 
@@ -372,7 +373,7 @@ nav li:first-child{
     display: flex;
     flex-wrap: wrap;
     height: 150px;
-    width: 170px;
+    width: 160px;
     mix-blend-mode: normal;
     text-align: center;
     text-decoration: none;
