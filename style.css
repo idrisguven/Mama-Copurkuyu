@@ -264,6 +264,12 @@ nav li:first-child{
 	background-size: 500px 500px;
 }
 
+.box-05 .inner {
+	background-image: url('/img/buton-5.jpg');
+	background-repeat: no-repeat;
+	background-size: 500px 500px;
+}
+
 .footer{
   background:#cccccc;
   padding:30px 0px;
@@ -323,6 +329,7 @@ nav li:first-child{
   #scrollToTopBtn:hover {
     background-color: #0056b3;
   }
+
   
   
   @media (max-width:720px){
@@ -393,6 +400,11 @@ nav li:first-child{
   }
   
   .box-04 .inner {
+
+    background-size: 175px 150px;
+  }
+
+  .box-05 .inner {
 
     background-size: 175px 150px;
   }
