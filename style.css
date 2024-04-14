@@ -330,6 +330,27 @@ nav li:first-child{
     background-color: #0056b3;
   }
 
+  .menu1 {
+    border: 5px solid;
+    margin: auto;
+    margin-top: 150px;
+    max-width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .kebap {
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+  }
+
+ 
   
   
   @media (max-width:720px){
